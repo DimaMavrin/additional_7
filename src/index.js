@@ -1,7 +1,7 @@
-function isvaild(i, j, matrix, num) {
-	return checkRow(i, matrix, num) &&
-				 checkColumn(j, matrix, num) &&
-         checkSquare(i, j, matrix, num);
+function isvaild(i, j, matrix, number) {
+	return checkRow(i, matrix, number) &&
+				 checkColumn(j, matrix, number) &&
+         checkSquare(i, j, matrix, number);
 }
 
 function checkRow(i, matrix, number) {
